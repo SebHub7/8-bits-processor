@@ -23,9 +23,9 @@ Made using CircuitVerse: https://circuitverse.org/
 | J | jump | opcode: 100 + 5 bits specifying the ROM address to jump to |
 
 # Fibonacci program coded in the ROM
-
-Assembly code:  
-LV 0x0  
+| Assembly code | Binary code | 
+| --- | --- |
+| LV 0x0  
 ADD 1  
 SV 0x0  
 LV 0x0  
@@ -34,7 +34,7 @@ ADDA 0x1
 SV 0x0  
 LV 0x2  
 SV 0x1  
-J 0x3  
+J 0x3 |
 
 In binary:  
 000 00000  
