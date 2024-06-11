@@ -8,18 +8,18 @@ Made using CircuitVerse, here is my project: https://circuitverse.org/simulator/
   - 8 bits CPU
   - 16 bytes ROM
   - 32 bytes RAM
-  - One register (accumulator)
+  - No registers (just the accumulator to save results from one operation to another)
 
 # Instruction set:
-3 bits for operand code and 5 bits for value / RAM address
+3 bits for the operation code and 5 bits for the operand (value or RAM/ROM address)
 
-| Short instruction | Instruction | Description |
-| --- | --- | --- |
-| LV | Load Value | opcode: 000 + 5 bits specifying the RAM address storing the value we want to load |
-| SV | Store Value | opcode: 001 + 5 bits specifying the RAM address where we want to store the accumulator value |
-| ADD | addition | opcode: 010 + 5 bits specifying a value |
-| ADDA | addition | opcode: 011 + 5 bits specifying a RAM address, the value stored at that address will be added to the accumulator (necessary because the processor only have one register) |
-| J | jump | opcode: 100 + 5 bits specifying the ROM address to jump to |
+| Short instruction | Instruction | Operation code | Operand |
+| --- | --- | --- | --- |
+| LV | Load Value | 000 | 5 bits specifying the RAM address storing the value we want to load |
+| SV | Store Value | 001 | 5 bits specifying the RAM address where we want to store the accumulator value |
+| ADD | Addition | 010 | 5 bits specifying a value |
+| ADDA | Addition | 011 | 5 bits specifying a RAM address, the value stored at that address will be added to the accumulator (necessary because the processor only have one register) |
+| J | Jump | 100 | 5 bits specifying the ROM address to jump to |
 
 # Fibonacci program coded in the ROM
 | Assembly code | Binary code | 
