@@ -24,27 +24,27 @@ Made using CircuitVerse: https://circuitverse.org/
 
 # Fibonacci program coded in the ROM
 
-Assembly code: 
-LV 0x0
-ADD 1
-SV 0x0
-LV 0x0
-SV 0x2
-ADDA 0x1
-SV 0x0
-LV 0x2
-SV 0x1
-J 0x3
+Assembly code:  
+LV 0x0  
+ADD 1  
+SV 0x0  
+LV 0x0  
+SV 0x2  
+ADDA 0x1  
+SV 0x0  
+LV 0x2  
+SV 0x1  
+J 0x3  
 
-In binary:
+In binary:  
 000 00000  
-010 00001
-001 00000
-000 00000
-001 00010
-011 00001
-010 00000
-000 00010
-010 00001
-100 00011
+010 00001  
+001 00000  
+000 00000  
+001 00010  
+011 00001  
+010 00000  
+000 00010  
+010 00001  
+100 00011  
 
