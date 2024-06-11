@@ -14,6 +14,7 @@
 3 bits for operand code | 5 bits for value / RAM address
 
 | Short instruction | Instruction | Description |
+| --- | --- | --- |
 | LV | Load Value | opcode: 000 + 5 bits specifying the RAM address storing the value we want to load |
 | SV | Store Value | opcode: 001 + 5 bits specifying the RAM address where we want to store the accumulator value |
 | ADD | addition | opcode: 010 + 5 bits specifying a value |
