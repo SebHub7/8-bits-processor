@@ -15,9 +15,9 @@ Made using CircuitVerse, here is my project: https://circuitverse.org/simulator/
 
 | Short instruction | Instruction | Operation code | Operand |
 | --- | --- | --- | --- |
-| LV | Load Value | 000 | 5 bits specifying the RAM address storing the value we want to load |
+| LV | Load Value | 000 | 5 bits specifying the RAM address storing the value we want to load into the accumulator |
 | SV | Store Value | 001 | 5 bits specifying the RAM address where we want to store the accumulator value |
-| ADD | Addition | 010 | 5 bits specifying a value |
+| ADD | Addition | 010 | 5 bits specifying a value to add to the accumulator |
 | ADDA | Addition | 011 | 5 bits specifying a RAM address, the value stored at that address will be added to the accumulator (necessary because the processor only have one register) |
 | J | Jump | 100 | 5 bits specifying the ROM address to jump to |
 
