@@ -1,9 +1,7 @@
 # This processor has been made to allow the execution of very simple programs and to learn the basics of a processor.
 Made using CircuitVerse, here is my project: https://circuitverse.org/simulator/edit/cpu-nano-8-bits
 
-
-![8 bits cpu](https://github.com/SebHub7/8-bits-processor/assets/160337978/b8cac215-da5e-494f-8981-aa05286a0f67)
-
+https://github.com/SebHub7/8-bits-processor/assets/160337978/0485894e-dbcf-4728-8d2b-493d5f7ee978
 
 # Features:
   - 8 bits CPU
