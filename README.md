@@ -25,25 +25,13 @@ Made using CircuitVerse: https://circuitverse.org/
 # Fibonacci program coded in the ROM
 | Assembly code | Binary code | 
 | --- | --- |
-| LV 0x0  
-ADD 1  
-SV 0x0  
-LV 0x0  
-SV 0x2  
-ADDA 0x1  
-SV 0x0  
-LV 0x2  
-SV 0x1  
-J 0x3 |
-
-| 000 00000  
-010 00001  
-001 00000  
-000 00000  
-001 00010  
-011 00001  
-010 00000  
-000 00010  
-010 00001  
-100 00011 |
-
+| LV 0x0 | 000 00000 |
+| ADD 1 | 010 00001 |
+| SV 0x0 | 001 00000 |
+| LV 0x0 | 000 00000 |
+| SV 0x2 | 001 00010 |
+| ADDA 0x1 | 011 00001 |
+| SV 0x0 | 001 00000 |
+| LV 0x2 | 000 00010 |
+| SV 0x1 | 001 00001 |
+| J 0x3 | 100 00011 |
