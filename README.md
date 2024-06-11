@@ -9,7 +9,6 @@ Made using CircuitVerse: https://circuitverse.org/
   - 16 bytes ROM
   - 32 bytes RAM
   - One register (accumulator)
-  - Fibonacci program already coded
 
 # Instruction set:
 3 bits for operand code and 5 bits for value / RAM address
