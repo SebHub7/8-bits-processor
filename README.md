@@ -2,7 +2,7 @@
 Made using CircuitVerse, here is my project: https://circuitverse.org/simulator/edit/cpu-nano-8-bits
 
 
-https://github.com/SebHub7/8-bits-processor/assets/160337978/b3461e91-06ed-4967-852c-e4ff23d15ee6
+![8 bits cpu](https://github.com/SebHub7/8-bits-processor/assets/160337978/b8cac215-da5e-494f-8981-aa05286a0f67)
 
 
 # Features:
