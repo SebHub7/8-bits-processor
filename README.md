@@ -11,7 +11,7 @@
   - Fibonacci program already coded
 
 # Instruction set:
-3 bits for operand code | 5 bits for value / RAM address
+3 bits for operand code and 5 bits for value / RAM address
 
 | Short instruction | Instruction | Description |
 | --- | --- | --- |
